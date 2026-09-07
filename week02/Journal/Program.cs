@@ -1,3 +1,6 @@
+// EXCEEDING REQUIREMENTS:
+// I added a feature that displays the total number of journal entries
+// so the user can easily see how many entries are currently stored.
 Journal journal = new Journal();
 PromptGenerator promptGenerator = new PromptGenerator();
 
@@ -34,6 +37,9 @@ while (running)
     }
     else if (choice == "2")
     {
+        Console.WriteLine($"Total journal entries: {journal._entries.Count}");
+        Console.WriteLine();
+
         journal.DisplayAll();
     }
     else if (choice == "3")
