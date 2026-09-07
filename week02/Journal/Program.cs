@@ -1,4 +1,3 @@
-// EXCEEDING REQUIREMENTS:
 // I added a feature that displays the total number of journal entries
 // so the user can easily see how many entries are currently stored.
 Journal journal = new Journal();
