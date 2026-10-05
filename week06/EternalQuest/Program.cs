@@ -1,9 +1,10 @@
-using System;
+// Creativity / Exceeding Requirements:
+// I added a level and rank system to make the program more fun.
+// As I earn more points, my level goes up and my rank changes.
+// The ranks are Beginner, Quest Explorer, Goal Master,
+// and Eternal Champion.
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
-    }
-}
+GoalManager goalManager = new GoalManager();
+
+goalManager.Start();
+
